@@ -1,0 +1,49 @@
+{
+  "DB_TYPE": "MSSQL",
+  "Data_Provider": "System.Data.Odbc",
+  "Active_DSN": "testdb",
+  "ConnectionStrings": [
+    {
+      "key": "testdb",
+      "value": "dsn=gradproj;UID=gradproj;PWD=gp1234;"
+    }
+  ],
+  "Table_Columns": {
+    "Individual_Attendance_Columns": [
+      {
+        "name": "ID",
+        "data_field": "student_id"
+      },
+      {
+        "name": "Name",
+        "data_field": "student_name"
+      },
+      {
+        "name": "Out of Range",
+        "data_field": "out_of_range"
+      },
+      {
+        "name": "Date",
+        "data_field": "time_stamp"
+      }
+    ],
+    "Group_Attendance_Columns": [
+      {
+        "name": "ID",
+        "data_field": "student_id"
+      },
+      {
+        "name": "Name",
+        "data_field": "student_name"
+      },
+      {
+        "name": "Attendance",
+        "data_field": "attendance"
+      },
+      {
+        "name": "Out of Range",
+        "data_field": "out_of_range"
+      }
+    ]
+  }
+}
